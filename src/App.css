@@ -34,11 +34,11 @@
 }
 
 .home {
-  background-color: #656565;
+  background-color: #266daf;
 }
 
 .away {
-  background-color: #af750a;
+  background-color: #c0001d;
 }
 
 .home__name,
@@ -113,10 +113,19 @@
   justify-content: space-around;
 }
 
+.scoreBoardControls {
+  display: flex;
+}
+
 .homeButtons__touchdown,
 .homeButtons__fieldGoal,
 .awayButtons__touchdown,
-.awayButtons__fieldGoal {
+.awayButtons__fieldGoal,
+.down,
+.yardsLeft,
+.ballOn,
+.quarter,
+.reset {
   margin: 1rem;
   border-radius: 4px;
 }
